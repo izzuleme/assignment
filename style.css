@@ -1,4 +1,4 @@
-/* Reset & Base */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ body {
     background-image: url(images/premium_photo-1671751035347-e308f0a19b28.jpg);
 }
 
-/* ================= NAVIGATION ================= */
+
 nav {
     background: var(--white);
     position: fixed;
@@ -69,7 +69,7 @@ nav a.active {
     color: var(--white);
 }
 
-/* ================= HEADER ================= */
+
 header {
     margin-top: 4rem;
     padding: 8rem 2rem 4rem;
@@ -82,12 +82,12 @@ header h1 {
     margin-bottom: 1rem;
 }
 
-/* ================= MAIN SECTION ================= */
+
 main {
     color: var(--primary);
 }
 
-/* Sections */
+
 section {
     max-width: 1200px;
     margin: 4rem auto;
@@ -100,7 +100,7 @@ h2 {
     margin-bottom: 3rem;
 }
 
-/* ================= CARDS ================= */
+
 article {
     background: var(--white);
     border-radius: var(--radius);
@@ -109,12 +109,12 @@ article {
     color: var(--primary);
 }
 
-/* Paksa semua text dalam article muncul */
+
 article * {
     color: var(--primary);
 }
 
-/* ================= GRID SYSTEM ================= */
+
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -133,7 +133,7 @@ article * {
     gap: 2rem;
 }
 
-/* ================= TABLE ================= */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -152,7 +152,7 @@ th {
     color: var(--white);
 }
 
-/* ================= GALLERY ================= */
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -164,10 +164,10 @@ figure {
     overflow: hidden;
     height: 250px;
     position: relative;
-    background: #000; /* penting untuk video contain */
+    background: #000; 
 }
 
-/* GAMBAR – kekal cover */
+
 figure img {
     width: 100%;
     height: 100%;
@@ -175,7 +175,7 @@ figure img {
     transition: transform 0.3s;
 }
 
-/* VIDEO – TAK ZOOM */
+
 figure video {
     width: 100%;
     height: 100%;
@@ -184,7 +184,7 @@ figure video {
     display: block;
 }
 
-/* Hover effect hanya untuk gambar */
+
 figure:hover img {
     transform: scale(1.1);
 }
@@ -207,7 +207,7 @@ figure:hover figcaption {
 }
 
 
-/* ================= FOOTER ================= */
+
 footer {
     background: linear-gradient(135deg, #1e272e, #2d3436);
     padding: 5rem 2rem 2rem;
@@ -215,7 +215,7 @@ footer {
     text-align: center;
 }
 
-/* 🔥 FOOTER GRID BETUL */
+
 footer section {
     max-width: 1200px;
     margin: 0 auto 3rem;
@@ -244,7 +244,7 @@ footer h3 {
     position: relative;
 }
 
-/* underline accent */
+
 footer h3::after {
     content: "";
     display: block;
@@ -284,7 +284,7 @@ footer p {
     margin-top: 2rem;
 }
 
-/* ================= RESPONSIVE ================= */
+
 @media (max-width: 900px) {
     .grid-2,
     .grid-3,
@@ -302,5 +302,6 @@ footer p {
         font-size: 2rem;
     }
 }
+
 
 
